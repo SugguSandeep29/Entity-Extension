@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_MAT_OVP_LAYOUT_09H</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <EDIT_MODE>E</EDIT_MODE>
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID Final="5 ">BASIC_DATA</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID Final="5 ">MAT_SECTION</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6D66ABE450161EEEA58C1C944A39C40C</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>9 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <TYPE>T</TYPE>
+               <CONFIG_ID>ZIN_BS_MAT_BUPA01</CONFIG_ID>
+               <TITLE Transl="true">1</TITLE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+         <Node Name="WIRE_MODEL" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <Node Name="WIRE" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6D66ABE450161EEEA58C4AD0A8AE0448</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZIN_BS_MAT_BUPA01</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_MATERIAL_FORM_04</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARA</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

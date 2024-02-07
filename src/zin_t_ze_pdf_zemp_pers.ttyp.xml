@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZIN_T_ZE_PDF_ZEMP_PERS</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>ZIN_S_ZE_PDF_ZEMP_PERS</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>K</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <KEYFDCOUNT>0003</KEYFDCOUNT>
+    <DDTEXT>Generated Int.Table</DDTEXT>
+   </DD40V>
+   <DD42V>
+    <DD42V>
+     <TYPENAME>ZIN_T_ZE_PDF_ZEMP_PERS</TYPENAME>
+     <KEYFDPOS>0001</KEYFDPOS>
+     <ROWTYPEPOS>0001</ROWTYPEPOS>
+     <KEYFIELD>ZEMP_CNTR</KEYFIELD>
+    </DD42V>
+    <DD42V>
+     <TYPENAME>ZIN_T_ZE_PDF_ZEMP_PERS</TYPENAME>
+     <KEYFDPOS>0002</KEYFDPOS>
+     <ROWTYPEPOS>0002</ROWTYPEPOS>
+     <KEYFIELD>ZEMP_FOA</KEYFIELD>
+    </DD42V>
+    <DD42V>
+     <TYPENAME>ZIN_T_ZE_PDF_ZEMP_PERS</TYPENAME>
+     <KEYFDPOS>0003</KEYFDPOS>
+     <ROWTYPEPOS>0003</ROWTYPEPOS>
+     <KEYFIELD>ZEMP_GEND</KEYFIELD>
+    </DD42V>
+   </DD42V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

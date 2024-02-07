@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_AVAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AVAS>
+    <HEADER>
+     <GUID>6D66ABE450161EEEA6E88C570B6CC36E</GUID>
+     <ATTRIBUTE>FPM_APPL_AREA</ATTRIBUTE>
+     <OBJECT>
+      <TROBJTYPE>WDCC</TROBJTYPE>
+      <SOBJ_NAME>ZBS_SP_COMPANY_CODE_SECRET_NUM  00</SOBJ_NAME>
+     </OBJECT>
+    </HEADER>
+    <VALUES>
+     <CLS_VALUE_ASSIGNMENT>
+      <VALUE>FPM_BOL</VALUE>
+      <ICON>@HO@</ICON>
+     </CLS_VALUE_ASSIGNMENT>
+    </VALUES>
+   </AVAS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

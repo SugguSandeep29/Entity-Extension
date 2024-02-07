@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>zin_email</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <WI_TEXT>Leave Approval</WI_TEXT>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>99900117</OBJID>
+     <SWOTP>SELFITEM</SWOTP>
+     <SWMTD>SENDTASKDESCRIPTION2</SWMTD>
+     <METHTYPE>BO</METHTYPE>
+     <BACKGROUND>X</BACKGROUND>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+    <DESCRIPTIONS>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>99900117</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000001</TABSEQNR>
+      <TLINE>Hi Abhishek,</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>99900117</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000002</TABSEQNR>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>99900117</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000003</TABSEQNR>
+      <TLINE>Please aprove leave.</TLINE>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>99900117</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000004</TABSEQNR>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+     <HRS1002>
+      <OTYPE>TS</OTYPE>
+      <OBJID>99900117</OBJID>
+      <LANGU>E</LANGU>
+      <SUBTY>0120</SUBTY>
+      <TABSEQNR>000005</TABSEQNR>
+      <TFORMAT>*</TFORMAT>
+     </HRS1002>
+    </DESCRIPTIONS>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS99900117</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23000000000008</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS>
+      <N NAME="ADDRESSSTRINGS:AddressStrings:" TYPE="::SOXNA-FULLNAME:h:482:0" PROPS="8C00734"/>
+      <O NAME="TYPEID:TypeId:" TYPE="::SOS04-L_ART:C:1:0" PROPS="8C0033"/>
+      <P NAME="RECEIVERS:Receivers:" TYPE=":BO::h:0:0" PROPS="0C925341"/>
+      <Q NAME="EXPRESS:Express:" TYPE="::SOS04-L_SEX:C:1:0" PROPS="0C003301"/>
+      <R NAME="LANGUAGE:Language:" TYPE="::SYST-LANGU:C:1:0" PROPS="0C003301"/>
+      <S NAME="ATTACHMENTS:Attachments:" TYPE="SOFM:BO::h:0:0" PROPS="0C925341"/>
+      <T NAME="SIGN:Sign:" TYPE="::SOS04-S_SEX:C:1:0" PROPS="0C003301"/>
+      <U NAME="ENCRYPT:Encrypt:" TYPE="::SOS04-S_SEX:C:1:0" PROPS="0C003301"/>
+      <V NAME="LINEWIDTH:LineWidth:" TYPE="::THEAD-TDLINESIZE:N:3:0" PROPS="0C003301"/>
+     </ELEMENTS>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

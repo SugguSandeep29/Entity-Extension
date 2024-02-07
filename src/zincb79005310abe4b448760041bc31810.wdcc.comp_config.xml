@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="ZINCB79005310ABE4B448760041BC318" ConfType="10" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true" Changed="true">
+       <ID Final="5 ">BS_BP_BANK_ACCOUNT</ID>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true" Changed="true">
+         <ID Final="5 ">BS_BP_BANK_ACCOUNT</ID>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <HIDDEN>X</HIDDEN>
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_CFG_UIBB_15</FPM_PRIMARY_ATTRIBUTE>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

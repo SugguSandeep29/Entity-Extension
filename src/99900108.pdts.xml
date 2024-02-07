@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PDTS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PDTS>
+    <SHORT_TEXT>zin_demo</SHORT_TEXT>
+    <PLVAR>01</PLVAR>
+    <METHOD>
+     <OTYPE>TS</OTYPE>
+     <OBJID>99900108</OBJID>
+     <SWOTP>ZIN_BO_1</SWOTP>
+     <SWMTD>DISPLAY</SWMTD>
+     <METHTYPE>BO</METHTYPE>
+     <SYNCHRON>X</SYNCHRON>
+    </METHOD>
+   </PDTS>
+   <CONTAINER>
+    <CONTAINER>
+     <PROPERTIES>
+      <OWN_ID>
+       <INSTID>TS99900108</INSTID>
+       <TYPEID>CL_SWF_CNT_HRS_PERSISTENCE</TYPEID>
+       <CATID>CL</CATID>
+      </OWN_ID>
+      <PROPSTRING>23000000000008</PROPSTRING>
+      <XMLVERSION>0002</XMLVERSION>
+      <INTERNAL>X</INTERNAL>
+      <EXDEFINITN>
+       <NAME>_DEF_EXT</NAME>
+       <POR>
+        <INSTID>DIALOG_STEP_CONTAINER</INSTID>
+        <TYPEID>CL_SWF_CNT_PERSISTENCE_DEF_EXT</TYPEID>
+        <CATID>CL</CATID>
+       </POR>
+      </EXDEFINITN>
+     </PROPERTIES>
+     <ELEMENTS/>
+    </CONTAINER>
+   </CONTAINER>
+  </asx:values>
+ </asx:abap>
+</abapGit>

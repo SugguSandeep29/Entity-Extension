@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_SP_OVP</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID>BS_SP_COMPANY_CODE</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID>BS_SP_COMPANY_CODE</ID>
+             <Node Name="UIBB" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_A710A57316081EDEB1B020A36CD247EC</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>15 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <CONFIG_ID>ZSU_FORM_SECRET_NO</CONFIG_ID>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+         <Node Name="WIRE_MODEL" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <Node Name="WIRE" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6D66ABE450161EEEA6E8CA49F52983D3</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZSU_FORM_SECRET_NO</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>BS_SP_COMPANY_CODE</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>STANDARD</PORT_IDENTIFIER>
+             <CONNECTOR>CL_BS_BP_CONNECTOR_BOL_REL</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;BOL_RELATION&gt;ZIN_SP_AssignedSecretNumber&lt;/BOL_RELATION&gt;&lt;CREATION_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>6D66ABE450161EEEA6E865844080632C</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>6D66ABE450161EEEA6E865844080632C</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>255</LENGTH>
+       <TEXT>Secret Number Entity Extension</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZIN_ENH_BP_EXT_SEC_NUM_ENTITY</OBJ_NAME>
+     <CONCEPT>6D66ABE450161EEEA6E865844080632C</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

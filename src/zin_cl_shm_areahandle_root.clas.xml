@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZIN_CL_SHM_AREAHANDLE_ROOT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Root Class for Shared Memory Object</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <CLSSHAREDMEMORY>X</CLSSHAREDMEMORY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VBAK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read Sales Order Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_VBAK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Structure VBAK</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_VBAK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Sales Order Data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VBAK</CMPNAME>
+     <SCONAME>RT_VBAK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Structure VBAK</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_VBAK</CMPNAME>
+     <SCONAME>IT_SO_VBAK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range for Sales Order Number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

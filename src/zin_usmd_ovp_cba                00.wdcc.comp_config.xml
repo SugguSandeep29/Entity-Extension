@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_ADAPTABLE_OVP" ConfId="ZIN_USMD_OVP_CBA" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="CONFIG_DATA" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <SCHEMA>USMD_GEN</SCHEMA>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

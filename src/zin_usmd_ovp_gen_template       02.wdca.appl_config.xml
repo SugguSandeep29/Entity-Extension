@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Name="USMD_OVP_GEN" ConfId="ZIN_USMD_OVP_GEN_TEMPLATE" ConfType="02" ConfVar="">
+ <Parameters>
+  <Parameter Name="USMD_OTC">ZIN_EMPL</Parameter>
+  <Parameter Name="WDDISPLAYLOADINGPAGE">2</Parameter>
+ </Parameters>
+ <Component Name="FPM_ADAPTABLE_OVP" Usage="USMD_OVP_GEN" ConfType="00" ConfId="ZIN_USMD_OVP_CBA" ConfVar="" Interface="False">
+  <Component Name="FPM_OVP_COMPONENT" Usage="OVP" ConfType="00" ConfId="ZIN_USMD_GEN_OVP_TEMPLATE" ConfVar="" Interface="False"/>
+ </Component>
+</Application>

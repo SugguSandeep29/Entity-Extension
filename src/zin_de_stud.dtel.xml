@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZIN_DE_STUD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>demo de</DDTEXT>
+    <ACTFLAG>I</ACTFLAG>
+    <DTELMASTER>E</DTELMASTER>
+    <RESERVEDTE>JB</RESERVEDTE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

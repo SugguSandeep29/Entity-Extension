@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZIN_CL_CUST_ECC_HANDLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>IN: Custom Application Handler</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor of Class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_ENT_FLD_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>IN: Validation Table for BP Data Model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_SUPPL_FLDGRP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDG BP: table type for MDG_BS_SUPPL_FG_T</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_WF_SERVICES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Assignment of BP to Customer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_VENDOR_BY_LIFNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read the Vendor Specific data for a given Vendor Number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2API</CMPNAME>
+     <SCONAME>CS_SUPPL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Complex Interface for Business Partner in CVI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2API</CMPNAME>
+     <SCONAME>CV_XCHANGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>New Input Values</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2API</CMPNAME>
+     <SCONAME>IV_TASK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>External Interface: Change Indicator Object</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2STA</CMPNAME>
+     <SCONAME>CT_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Source Structure for PP Mapping</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2STA</CMPNAME>
+     <SCONAME>IS_SUPPL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Complex Interface for Business Partner in CVI</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAP_BP_ZSECRET_N_2STA</CMPNAME>
+     <SCONAME>IV_ASSIGNMENT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Multiple Assignment ID (Number)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_VENDOR</CMPNAME>
+     <SCONAME>ET_SUPPLIER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Inbound for Customer/Vendor Integration</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_VENDOR</CMPNAME>
+     <SCONAME>IT_IDLIST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Key of External Partner Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_VENDOR_BY_LIFNR</CMPNAME>
+     <SCONAME>ES_SUPPLIER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Complex External Interface for Vendors</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_VENDOR_BY_LIFNR</CMPNAME>
+     <SCONAME>IV_LIFNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Account Number of Supplier</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

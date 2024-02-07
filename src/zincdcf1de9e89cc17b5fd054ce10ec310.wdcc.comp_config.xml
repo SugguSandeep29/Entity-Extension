@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_FORM_UIBB_GL2" ConfId="ZINCDCF1DE9E89CC17B5FD054CE10EC3" ConfType="10" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="FORM" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <Node Name="FORM_GROUP" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true" Changed="true">
+       <ID Final="5 ">GRP</ID>
+       <Node Name="FORM_GROUP_ELEMENT" SimpleFormat="true">
+        <Item Index="000001" Deleted="true" SimpleFormat="true">
+         <ID>_GENP_2F1DAD4C3AD68D48E10000000A428751</ID>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="POSITION" SimpleFormat="true">
+      <Item Index="000001" Deleted="true" SimpleFormat="true">
+       <ID>_GENP_301DAD4C3AD68D48E10000000A428751</ID>
+      </Item>
+     </Node>
+     <Node Name="STANDARD_ELEMENT" SimpleFormat="true">
+      <Item Index="000001" Deleted="true" SimpleFormat="true">
+       <ID>FGRP_17</ID>
+      </Item>
+     </Node>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

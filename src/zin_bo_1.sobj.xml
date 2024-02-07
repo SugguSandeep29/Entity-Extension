@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SWOTDV>
+    <SWOTDV>
+     <OBJTYPE>ZIN_BO_1</OBJTYPE>
+     <VERB>KEY_NUMBER</VERB>
+     <VERBTYPE>K</VERBTYPE>
+     <CREA_REL>757</CREA_REL>
+     <EDITORDER>0001</EDITORDER>
+     <EDITELEM>KEY_NUMBER</EDITELEM>
+     <REFTYPE>D</REFTYPE>
+     <REFSTRUCT>ZIN_S_WF_NUM</REFSTRUCT>
+     <REFFIELD>NUMBER</REFFIELD>
+     <ELEMTYPE>E</ELEMTYPE>
+    </SWOTDV>
+    <SWOTDV>
+     <OBJTYPE>ZIN_BO_1</OBJTYPE>
+     <VERB>WF_START</VERB>
+     <VERBTYPE>E</VERBTYPE>
+     <CREA_REL>757</CREA_REL>
+     <EDITORDER>0001</EDITORDER>
+     <EDITELEM>WF_START</EDITELEM>
+     <REFTYPE>D</REFTYPE>
+    </SWOTDV>
+   </SWOTDV>
+   <SWOTOL>
+    <SWOTOL>
+     <OBJTYPE>ZIN_BO_1</OBJTYPE>
+     <AREA>*ROOT</AREA>
+     <AREACLASS>04</AREACLASS>
+     <MAINENTRY>X</MAINENTRY>
+    </SWOTOL>
+   </SWOTOL>
+   <SWOTTV>
+    <SWOTTV>
+     <OBJTYPE>ZIN_BO_1</OBJTYPE>
+     <LANGUAGE>E</LANGUAGE>
+     <VERB>KEY_NUMBER</VERB>
+     <DESCRIPT>Key Number</DESCRIPT>
+     <SHORTTEXT>Key Number for WF Event</SHORTTEXT>
+    </SWOTTV>
+    <SWOTTV>
+     <OBJTYPE>ZIN_BO_1</OBJTYPE>
+     <LANGUAGE>E</LANGUAGE>
+     <VERB>WF_START</VERB>
+     <DESCRIPT>WorkFlow Start</DESCRIPT>
+     <SHORTTEXT>Start the Workflow</SHORTTEXT>
+    </SWOTTV>
+   </SWOTTV>
+   <TOJTB>
+    <TOJTB>
+     <NAME>ZIN_BO_1</NAME>
+     <ACTIVE>X</ACTIVE>
+     <ACTIVELANG>E</ACTIVELANG>
+     <PROGNAME>ZIN_PRG_BO_WF_1</PROGNAME>
+     <EDITELEM>ZIN_BO_1</EDITELEM>
+     <EPRIMETHOD>Display</EPRIMETHOD>
+     <APPLIC>*</APPLIC>
+     <CREA_REL>757</CREA_REL>
+     <CHAN_REL>757</CHAN_REL>
+     <VERSION>757</VERSION>
+     <OBJTYPECLS>01</OBJTYPECLS>
+     <KEYLENGTH>10</KEYLENGTH>
+    </TOJTB>
+   </TOJTB>
+   <TOJTT>
+    <TOJTT>
+     <NAME>ZIN_BO_1</NAME>
+     <LANGUAGE>E</LANGUAGE>
+     <NTEXT>BO for Testing Workflow Event</NTEXT>
+     <STEXT>ZIN_WF_BO_1</STEXT>
+    </TOJTT>
+   </TOJTT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

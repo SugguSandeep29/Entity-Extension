@@ -1,0 +1,15 @@
+managed implementation in class zbp_in_dd_attr_validation unique;
+with draft;
+
+define behavior for ZIN_DD_ATTR_VALIDATION //alias <alias_name>
+persistent table zin_t_bp_rule
+draft table zin_t_bp_rule_p
+lock master total etag mandatory
+etag master mandatory
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SOBJ" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SWOTDV>
+    <SWOTDV>
+     <OBJTYPE>ZINBO_LFA1</OBJTYPE>
+     <VERB>CHANGED</VERB>
+     <VERBTYPE>E</VERBTYPE>
+     <CREA_REL>757</CREA_REL>
+     <EDITORDER>0001</EDITORDER>
+     <EDITELEM>Changed</EDITELEM>
+     <REFTYPE>D</REFTYPE>
+     <MODELONLY>R</MODELONLY>
+    </SWOTDV>
+   </SWOTDV>
+   <SWOTTV>
+    <SWOTTV>
+     <OBJTYPE>ZINBO_LFA1</OBJTYPE>
+     <LANGUAGE>E</LANGUAGE>
+     <VERB>CHANGED</VERB>
+     <DESCRIPT>Changed</DESCRIPT>
+     <SHORTTEXT>Vendor Changed</SHORTTEXT>
+    </SWOTTV>
+   </SWOTTV>
+   <TOJTB>
+    <TOJTB>
+     <NAME>ZINBO_LFA1</NAME>
+     <ACTIVE>X</ACTIVE>
+     <ACTIVELANG>E</ACTIVELANG>
+     <PARENT>LFA1</PARENT>
+     <PROGNAME>ZIN_PRG_WF_LFA1_CHANGE</PROGNAME>
+     <EDITELEM>ZINBO_LFA1</EDITELEM>
+     <EPRIMETHOD>Display</EPRIMETHOD>
+     <EPRIATTRIB>Name</EPRIATTRIB>
+     <APPLIC>*</APPLIC>
+     <CREA_REL>757</CREA_REL>
+     <CHAN_REL>757</CHAN_REL>
+     <VERSION>757</VERSION>
+     <OBJTYPECLS>01</OBJTYPECLS>
+     <KEYLENGTH>10</KEYLENGTH>
+     <MODELONLY>R</MODELONLY>
+     <REL_REL>757</REL_REL>
+    </TOJTB>
+   </TOJTB>
+   <TOJTT>
+    <TOJTT>
+     <NAME>ZINBO_LFA1</NAME>
+     <LANGUAGE>E</LANGUAGE>
+     <NTEXT>Vendor Change Event BO</NTEXT>
+     <STEXT>ZIN BO Vendor</STEXT>
+    </TOJTT>
+   </TOJTT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

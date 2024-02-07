@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Component Name="FPM_OVP_COMPONENT" ConfId="ZIN_USMD_GEN_OVP_TEMPLATE" ConfType="00" ConfVar="">
+ <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+  <Item Index="000001" SimpleFormat="true">
+   <Node Name="OVP_APPLICATION" SimpleFormat="true">
+    <Item Index="000001" SimpleFormat="true">
+     <EDIT_MODE>R</EDIT_MODE>
+     <Node Name="ACTION" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">FPM_CANCEL_1</ID>
+       <EVENT_ID>FPM_CANCEL</EVENT_ID>
+       <ACTION_TYPE>1</ACTION_TYPE>
+       <Node Name="EVENT_PARAMETER" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="APPLICATION_SETTINGS" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSIENT_STATE>N</TRANSIENT_STATE>
+      </Item>
+     </Node>
+     <Node Name="APP_SPECIFIC_CC" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <COMPONENT>USMD_GEN_OVP</COMPONENT>
+       <CONFIG_ID/>
+      </Item>
+     </Node>
+     <Node Name="CONF_COMP_USAGE" SimpleFormat="true"/>
+     <Node Name="CONTENT_AREA" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <ID Final="5 ">MAIN</ID>
+       <TITLE Transl="true">26</TITLE>
+       <DEFAULT>X</DEFAULT>
+       <Node Name="EXTERNAL_NAVIGATION" SimpleFormat="true"/>
+       <Node Name="PAGE_MASTER_AREA" SimpleFormat="true"/>
+       <Node Name="SECTION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <ID Final="5 ">SECTION_1</ID>
+         <INDEX>1</INDEX>
+         <Node Name="COLUMN_LAYOUT" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <COLUMN_ID Final="5 ">COLUMN_ID_1</COLUMN_ID>
+          </Item>
+         </Node>
+         <Node Name="UIBB" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D5B8A36A1D867</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+           <INDEX>1</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <CONFIG_ID>ZIN_HEADER</CONFIG_ID>
+           <DEFAULT_IN_STACK>X</DEFAULT_IN_STACK>
+           <TITLE Transl="true">27</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000002" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D73CE3A86D883</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>FORM_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+           <INDEX>2</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <CONFIG_ID>ZIN_PERSONAL</CONFIG_ID>
+           <TITLE Transl="true">28</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+          <Item Index="000003" SimpleFormat="true">
+           <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D7E306B5B588B</FPM_PRIMARY_ATTRIBUTE>
+           <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+           <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+           <INDEX>3</INDEX>
+           <LOCATION>1</LOCATION>
+           <TYPE>T</TYPE>
+           <CONFIG_ID>ZIN_ADDRESS</CONFIG_ID>
+           <TITLE Transl="true">29</TITLE>
+           <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+             <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="TOOLBAR" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <Node Name="BUTTON" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <ELEMENT_ID Final="5 ">FPM_CANCEL_1</ELEMENT_ID>
+           <TEXT Transl="true">12</TEXT>
+           <IMAGE>~Icon/Cancel</IMAGE>
+           <INDEX>1</INDEX>
+           <HAS_SEPARATOR>X</HAS_SEPARATOR>
+           <SPECIAL_PROPERTIES>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DESIGN&gt;00&lt;/DESIGN&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</SPECIAL_PROPERTIES>
+           <Node Name="BUTTON_SUB_ITEM" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <ACTION_ID Final="5 ">FPM_CANCEL_1</ACTION_ID>
+             <INDEX>1</INDEX>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+       <Node Name="UIBB_SELECTOR" SimpleFormat="true"/>
+       <Node Name="PAGE_HEADER_AREA" SimpleFormat="true"/>
+      </Item>
+     </Node>
+     <Node Name="MSG_MAPPER_SETTING" SimpleFormat="true"/>
+     <Node Name="PAGE_SELECTOR" SimpleFormat="true"/>
+     <Node Name="PERSONALIZATION" SimpleFormat="true"/>
+     <Node Name="WIRE_MODEL" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <TRANSACTION>CL_MDG_BS_BOL_TRANSACTION</TRANSACTION>
+       <Node Name="WIRE" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D8B577BDF589E</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+         <CONFIG_ID>ZIN_HEADER</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT/>
+         <SRC_CONFIG_ID/>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER/>
+         <CONNECTOR>CL_FPM_CONNECTOR_BOL_IDENTITY</CONNECTOR>
+         <DEPENDENCY_PARAM/>
+        </Item>
+        <Item Index="000002" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D8F14B15498A0</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_FORM_UIBB_GL2</COMPONENT>
+         <CONFIG_ID>ZIN_PERSONAL</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+         <SRC_CONFIG_ID>ZIN_HEADER</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>STANDARD</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_BS_CONNECTOR_BOL_REL</CONNECTOR>
+         <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;BOL_RELATION&gt;ZEMP_HEAD2ZEMP_PERSRel&lt;/BOL_RELATION&gt;&lt;CREATION_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+        </Item>
+        <Item Index="000003" SimpleFormat="true">
+         <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_358C1DEA8A4E1EEE8B8D93DEE77CF8A1</FPM_PRIMARY_ATTRIBUTE>
+         <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+         <CONFIG_ID>ZIN_ADDRESS</CONFIG_ID>
+         <CONFIG_TYPE/>
+         <CONFIG_VAR/>
+         <INSTANCE_ID/>
+         <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+         <SRC_CONFIG_ID>ZIN_HEADER</SRC_CONFIG_ID>
+         <SRC_CONFIG_TYPE/>
+         <SRC_CONFIG_VAR/>
+         <SRC_INSTANCE_ID/>
+         <PORT_TYPE>LS</PORT_TYPE>
+         <PORT_IDENTIFIER>STANDARD</PORT_IDENTIFIER>
+         <CONNECTOR>CL_MDG_BS_CONNECTOR_BOL_REL</CONNECTOR>
+         <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;BOL_RELATION&gt;ZEMP_HEAD2ZEMP_ADDRRel&lt;/BOL_RELATION&gt;&lt;CREATION_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+     <Node Name="AMC_BINDING" SimpleFormat="true"/>
+    </Item>
+   </Node>
+  </Item>
+ </Node>
+</Component>

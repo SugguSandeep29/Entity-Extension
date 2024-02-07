@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>WDYCONF</TOOL>
+   <ORIGINAL_OBJECT>
+    <CONFIG_ID>BS_MAT_OVP_LAYOUT_09</CONFIG_ID>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENT_DATA>
+    <Component Name="" ConfId="" ConfType="00" ConfVar="">
+     <Node Name="CONFIGURATION_CONTEXT" SimpleFormat="true">
+      <Item Index="000001" SimpleFormat="true">
+       <Node Name="OVP_APPLICATION" SimpleFormat="true">
+        <Item Index="000001" SimpleFormat="true">
+         <EDIT_MODE>E</EDIT_MODE>
+         <Node Name="CONTENT_AREA" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true" Changed="true">
+           <ID>BASIC_DATA</ID>
+           <Node Name="SECTION" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true" Changed="true">
+             <ID>MAT_SECTION</ID>
+             <Node Name="UIBB" Sequence="_GENP_31AE404D55810153E10000000A4285BA
+_GENP_005056B254B01ED397B53A34BBBA5445
+_GENP_005056B254B01EE391C15FF96EB6C359
+_GENP_AE6AF44CB55F6841E10000000A4285B8
+_GENP_6D66ABE450161EEEA58BD74282E7839B
+_GENP_3A44604F924F9319E10000000A428CDC
+_GENP_031F324D9566DD0FE10000000A4285BA
+_GENP_D2CF624FF348E469E10000000A428CDB
+_GENP_FA163E3476811EE6AF93F92A95C8831A
+_GENP_FA163E3476811EE6AF940995D9548327
+_GENP_005056AC02D81EE290EEDF8556290FBC
+_GENP_C85F8F4FD8D23F2DE10000000A428CDB
+_GENP_FA163ECC21C01ED6BFA2228867D0542B
+_GENP_00E0EC2878B01ED7AD827A1D78DD1A15
+_GENP_2C16034D2819544EE10000000A4285B8
+_GENP_D44B134D63961166E10000000A4285B9
+_GENP_F4DA9F4FE4B3700BE10000000A428CDC
+_GENP_FA163E12F7AC1EE49491ECEF10AA4151
+_GENP_8C843A4FC36F7003E10000000A428CDC
+_GENP_DFC72D4FF0D78C5CE10000000A428CDA
+_GENP_BEC6394FA9528F24E10000000A428CDB
+_GENP_5FE88E4FDA922018E10000000A428CDB
+_GENP_FA163E12F7AC1ED4948B90A91A62534C
+_GENP_FA163E12F7AC1EE494948BB392FD0738
+_GENP_6B9A3A4F38731745E10000000A428CDC
+_GENP_E8793A4FBE4DB71DE10000000A428CDC
+_GENP_BF74574F55418605E10000000A428CDA
+_GENP_0E4D8A4FB692C83AE10000000A428CDB
+_GENP_689F294FA81DB351E10000000A428CDC
+_GENP_005056B254B01EE3A6A85C58EF89538D
+_GENP_005056AC02D81EE290F7AAE56542957E
+_GENP_FA163E12F7AC1EE3BB99A6E08AC0CFC3
+_GENP_FA163E12F7AC1EE3BB9AF32BA886992D
+_GENP_90D73A4FC36F7003E10000000A428CDC
+_GENP_1C23414F20B8472DE10000000A428CDB
+_GENP_005056AC02D81EE289EA76657D6A8ECE
+_GENP_005056AC02D81ED2918FCD0B0430CC9D
+_GENP_FA163E7840F71ED995DC74F67560152E
+_GENP_66D9414F26B8462DE10000000A428CDB
+_GENP_4869694F3AE6AF2EE10000000A428CDC
+_GENP_FA163E12F7AC1ED4948F9C02B8F19C3D
+_GENP_4FFA624FCFEB006EE10000000A428CDC
+_GENP_0F7B694F599F306FE10000000A428CDA
+_GENP_0050569183E11EE4999BF4839ADA8180
+_GENP_0894EF4579691EEB9EE85DF3AF92CC6F
+_GENP_0050569183E11EE4999CE2F644A5636B
+_GENP_0894EF4579691EEB9EE864091B47CC73
+_GENP_005056AC02D81ED296CCBB28AAD800A6
+_GENP_005056AC02D81ED29EEAA9F0D03005F1
+_GENP_005056AC02D81ED297C86EA0A47558D2
+_GENP_005056AC02D81ED299C15F41FFC8124A
+_GENP_005056AC02D81ED297C835D70D6E58AD" SimpleFormat="true">
+              <Item Index="000001" SimpleFormat="true" Changed="true">
+               <INDEX>4 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_AE6AF44CB55F6841E10000000A4285B8</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000002" SimpleFormat="true">
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6D66ABE450161EEEA58BD74282E7839B</FPM_PRIMARY_ATTRIBUTE>
+               <INTERFACE_VIEW>LIST_WINDOW</INTERFACE_VIEW>
+               <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+               <INDEX>5 </INDEX>
+               <LOCATION>1 </LOCATION>
+               <TYPE>T</TYPE>
+               <CONFIG_ID>ZIN_BS_MAT_BUPA01</CONFIG_ID>
+               <TITLE Transl="true">1</TITLE>
+               <Node Name="UIBB_TOOLBAR" SimpleFormat="true">
+                <Item Index="000001" SimpleFormat="true">
+                 <CAPTURE_ACTIONS>N</CAPTURE_ACTIONS>
+                 <Node Name="UIBB_BUTTON" SimpleFormat="true"/>
+                </Item>
+               </Node>
+              </Item>
+              <Item Index="000003" SimpleFormat="true" Changed="true">
+               <INDEX>6 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_3A44604F924F9319E10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000004" SimpleFormat="true" Changed="true">
+               <INDEX>7 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_031F324D9566DD0FE10000000A4285BA</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000005" SimpleFormat="true" Changed="true">
+               <INDEX>8 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_D2CF624FF348E469E10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000006" SimpleFormat="true" Changed="true">
+               <INDEX>9 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E3476811EE6AF93F92A95C8831A</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000007" SimpleFormat="true" Changed="true">
+               <INDEX>10 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E3476811EE6AF940995D9548327</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000008" SimpleFormat="true" Changed="true">
+               <INDEX>11 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81EE290EEDF8556290FBC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000009" SimpleFormat="true" Changed="true">
+               <INDEX>12 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_C85F8F4FD8D23F2DE10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000010" SimpleFormat="true" Changed="true">
+               <INDEX>13 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163ECC21C01ED6BFA2228867D0542B</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000011" SimpleFormat="true" Changed="true">
+               <INDEX>14 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_00E0EC2878B01ED7AD827A1D78DD1A15</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000012" SimpleFormat="true" Changed="true">
+               <INDEX>15 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_2C16034D2819544EE10000000A4285B8</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000013" SimpleFormat="true" Changed="true">
+               <INDEX>16 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_D44B134D63961166E10000000A4285B9</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000014" SimpleFormat="true" Changed="true">
+               <INDEX>17 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_F4DA9F4FE4B3700BE10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000015" SimpleFormat="true" Changed="true">
+               <INDEX>18 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1EE49491ECEF10AA4151</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000016" SimpleFormat="true" Changed="true">
+               <INDEX>19 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_8C843A4FC36F7003E10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000017" SimpleFormat="true" Changed="true">
+               <INDEX>20 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_DFC72D4FF0D78C5CE10000000A428CDA</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000018" SimpleFormat="true" Changed="true">
+               <INDEX>21 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_BEC6394FA9528F24E10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000019" SimpleFormat="true" Changed="true">
+               <INDEX>22 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_5FE88E4FDA922018E10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000020" SimpleFormat="true" Changed="true">
+               <INDEX>23 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1ED4948B90A91A62534C</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000021" SimpleFormat="true" Changed="true">
+               <INDEX>24 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1EE494948BB392FD0738</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000022" SimpleFormat="true" Changed="true">
+               <INDEX>25 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6B9A3A4F38731745E10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000023" SimpleFormat="true" Changed="true">
+               <INDEX>26 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_E8793A4FBE4DB71DE10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000024" SimpleFormat="true" Changed="true">
+               <INDEX>27 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_BF74574F55418605E10000000A428CDA</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000025" SimpleFormat="true" Changed="true">
+               <INDEX>28 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0E4D8A4FB692C83AE10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000026" SimpleFormat="true" Changed="true">
+               <INDEX>29 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_689F294FA81DB351E10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000027" SimpleFormat="true" Changed="true">
+               <INDEX>30 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056B254B01EE3A6A85C58EF89538D</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000028" SimpleFormat="true" Changed="true">
+               <INDEX>31 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81EE290F7AAE56542957E</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000029" SimpleFormat="true" Changed="true">
+               <INDEX>32 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1EE3BB99A6E08AC0CFC3</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000030" SimpleFormat="true" Changed="true">
+               <INDEX>33 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1EE3BB9AF32BA886992D</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000031" SimpleFormat="true" Changed="true">
+               <INDEX>34 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_90D73A4FC36F7003E10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000032" SimpleFormat="true" Changed="true">
+               <INDEX>35 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_1C23414F20B8472DE10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000033" SimpleFormat="true" Changed="true">
+               <INDEX>36 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81EE289EA76657D6A8ECE</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000034" SimpleFormat="true" Changed="true">
+               <INDEX>37 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED2918FCD0B0430CC9D</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000035" SimpleFormat="true" Changed="true">
+               <INDEX>38 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E7840F71ED995DC74F67560152E</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000036" SimpleFormat="true" Changed="true">
+               <INDEX>39 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_66D9414F26B8462DE10000000A428CDB</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000037" SimpleFormat="true" Changed="true">
+               <INDEX>40 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4869694F3AE6AF2EE10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000038" SimpleFormat="true" Changed="true">
+               <INDEX>41 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_FA163E12F7AC1ED4948F9C02B8F19C3D</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000039" SimpleFormat="true" Changed="true">
+               <INDEX>42 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_4FFA624FCFEB006EE10000000A428CDC</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000040" SimpleFormat="true" Changed="true">
+               <INDEX>43 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0F7B694F599F306FE10000000A428CDA</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000041" SimpleFormat="true" Changed="true">
+               <INDEX>44 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0050569183E11EE4999BF4839ADA8180</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000042" SimpleFormat="true" Changed="true">
+               <INDEX>45 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0894EF4579691EEB9EE85DF3AF92CC6F</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000043" SimpleFormat="true" Changed="true">
+               <INDEX>46 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0050569183E11EE4999CE2F644A5636B</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000044" SimpleFormat="true" Changed="true">
+               <INDEX>47 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_0894EF4579691EEB9EE864091B47CC73</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000045" SimpleFormat="true" Changed="true">
+               <INDEX>48 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED296CCBB28AAD800A6</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000046" SimpleFormat="true" Changed="true">
+               <INDEX>49 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED29EEAA9F0D03005F1</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000047" SimpleFormat="true" Changed="true">
+               <INDEX>50 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED297C86EA0A47558D2</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000048" SimpleFormat="true" Changed="true">
+               <INDEX>51 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED299C15F41FFC8124A</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+              <Item Index="000049" SimpleFormat="true" Changed="true">
+               <INDEX>52 </INDEX>
+               <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_005056AC02D81ED297C835D70D6E58AD</FPM_PRIMARY_ATTRIBUTE>
+              </Item>
+             </Node>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+         <Node Name="WIRE_MODEL" SimpleFormat="true">
+          <Item Index="000001" SimpleFormat="true">
+           <Node Name="WIRE" SimpleFormat="true">
+            <Item Index="000001" SimpleFormat="true">
+             <FPM_PRIMARY_ATTRIBUTE Final="5 ">_GENP_6D66ABE450161EEEA58CC111219704E1</FPM_PRIMARY_ATTRIBUTE>
+             <COMPONENT>FPM_LIST_UIBB_ATS</COMPONENT>
+             <CONFIG_ID>ZIN_BS_MAT_BUPA01</CONFIG_ID>
+             <CONFIG_TYPE></CONFIG_TYPE>
+             <CONFIG_VAR></CONFIG_VAR>
+             <INSTANCE_ID></INSTANCE_ID>
+             <SRC_COMPONENT>FPM_FORM_UIBB_GL2</SRC_COMPONENT>
+             <SRC_CONFIG_ID>MDG_BS_MAT_MATERIAL_FORM_04</SRC_CONFIG_ID>
+             <SRC_CONFIG_TYPE></SRC_CONFIG_TYPE>
+             <SRC_CONFIG_VAR></SRC_CONFIG_VAR>
+             <SRC_INSTANCE_ID></SRC_INSTANCE_ID>
+             <PORT_TYPE>LS</PORT_TYPE>
+             <PORT_IDENTIFIER>MARA</PORT_IDENTIFIER>
+             <CONNECTOR>/PLMU/CL_FRW_W_CONN_DEFAULT</CONNECTOR>
+             <DEPENDENCY_PARAM>﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;STRUCTURE&gt;&lt;FRW_WIRE_MAPPING_CLASS/&gt;&lt;FRW_WIRE_FILTER_MODE/&gt;&lt;/STRUCTURE&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</DEPENDENCY_PARAM>
+            </Item>
+           </Node>
+          </Item>
+         </Node>
+        </Item>
+       </Node>
+      </Item>
+     </Node>
+    </Component>
+   </ENHANCEMENT_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

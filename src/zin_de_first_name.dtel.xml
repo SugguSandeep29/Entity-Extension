@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZIN_DE_FIRST_NAME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZIN_DO_FIRST_NAME</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>10</SCRLEN3>
+    <DDTEXT>First Name</DDTEXT>
+    <REPTEXT>First Name</REPTEXT>
+    <SCRTEXT_S>First Name</SCRTEXT_S>
+    <SCRTEXT_M>First Name</SCRTEXT_M>
+    <SCRTEXT_L>First Name</SCRTEXT_L>
+    <ACTFLAG>I</ACTFLAG>
+    <DTELMASTER>E</DTELMASTER>
+    <RESERVEDTE>JB</RESERVEDTE>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

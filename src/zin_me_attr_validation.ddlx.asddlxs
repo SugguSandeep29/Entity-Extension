@@ -1,0 +1,23 @@
+@Metadata.layer: #CORE
+@UI: {
+    headerInfo:{ typeName: 'CR',
+                 typeNamePlural: 'CR',
+                 title: { type: #STANDARD, label: 'Field', value: 'Attribute' } }
+                 }
+annotate view ZIN_DD_ATTR_VALIDATION with
+{
+  @UI.facet: [{ id: 'CR',
+                 purpose: #STANDARD,
+                 type: #IDENTIFICATION_REFERENCE,
+                 label: 'Attribute',
+                 position: 10 }]
+  attribute;
+  @UI: {  lineItem:       [ { position: 10 } ],
+           identification: [ { position: 10 } ],
+           selectionField: [ { position: 10 } ]
+           }
+  entity;
+  @UI: {  lineItem:       [ { position: 30 } ] ,
+       identification: [ { position: 30 } ]}
+  mandatory;
+}

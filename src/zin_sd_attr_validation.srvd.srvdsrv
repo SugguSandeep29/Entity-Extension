@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination of Validation CDS'
+define service ZIN_SD_ATTR_VALIDATION {
+  expose ZIN_DD_ATTR_VALIDATION;
+}

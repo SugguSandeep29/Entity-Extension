@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZIN_TT_BUPA_GUID_RANGE</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>ZIN_S_BUPA_GUID_RANGE</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>IN: Material API Range Table Type</DDTEXT>
+    <TTYPKIND>R</TTYPKIND>
+    <RANGE_CTYP>BU_PARTNER</RANGE_CTYP>
+    <CTDATATYPE>CHAR</CTDATATYPE>
+    <CTLENG>000010</CTLENG>
+   </DD40V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

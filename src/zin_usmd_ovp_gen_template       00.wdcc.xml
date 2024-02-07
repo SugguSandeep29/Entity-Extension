@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_WDCC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <OBJECT_NAME>ZIN_USMD_OVP_GEN_TEMPLATE       00</OBJECT_NAME>
+   <CONFIG_ID>ZIN_USMD_OVP_GEN_TEMPLATE</CONFIG_ID>
+   <WDA_COMPONENT>MDG_BS_GOV_COMMUNICATOR</WDA_COMPONENT>
+   <DESCR_LANG>
+    <WDY_CONFIG_DATT>
+     <CONFIG_ID>ZIN_USMD_OVP_GEN_TEMPLATE</CONFIG_ID>
+     <LANGU>E</LANGU>
+     <DESCRIPTION>Communicator Setting for Employee UI model</DESCRIPTION>
+    </WDY_CONFIG_DATT>
+   </DESCR_LANG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZIN_CL_BADI_BANK_CONTEXT</CLSNAME>
+    <LANGU>E</LANGU>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ELEMENT_ID</CMPNAME>
+     <SCONAME>EV_BRF_EXPR_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Universal Unique Identifier</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ELEMENT_ID</CMPNAME>
+     <SCONAME>IV_CR_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ELEMENT_ID</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Beschreibung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_BP_BKDTL_INCLUDED</CMPNAME>
+     <SCONAME>EV_INCLUDED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MDGAF: General Indicator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_BP_BKDTL_INCLUDED</CMPNAME>
+     <SCONAME>IV_CR_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_CREQUEST</CMPNAME>
+     <SCONAME>ES_CREQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_CREQUEST</CMPNAME>
+     <SCONAME>IV_CR_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <SCONAME>ET_ENTITY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data for Entity Types</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_DATA</CMPNAME>
+     <SCONAME>IV_CR_NUMBER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Request</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
